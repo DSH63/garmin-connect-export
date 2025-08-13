@@ -31,8 +31,8 @@ def load_env():
         return False
     return True
 
-def download_activities(count=100, start_date='2025-07-01'):
-    """Download activities from Garmin Connect since July 1, 2025"""
+def download_activities(count=200, start_date='2024-07-01'):
+    """Download activities from Garmin Connect since July 1, 2024"""
     username = os.environ.get('GARMIN_USERNAME')
     password = os.environ.get('GARMIN_PASSWORD')
     
