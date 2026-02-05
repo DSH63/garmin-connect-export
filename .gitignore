@@ -11,3 +11,4 @@ venv*/
 *.log
 lint*.txt
 *.swp
+sup_analysis.db
